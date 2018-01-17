@@ -13,10 +13,12 @@
 
     body {
         background-color: #FFB736;
+        margin: 0;
+        padding: 0;
     }
 
     #content {
-        margin: 5%;
+        margin: 2%;
     }
 
     ul {
@@ -34,31 +36,54 @@
         float: left;
     }
 
-     li a{
+    li a {
         display: inline-block;
         padding: 8px;
         text-decoration: none;
         color: #ff3800;
     }
-    li a:hover{
-    	  display: inline-block;
+
+    li a:hover {
+        display: inline-block;
         padding: 8px;
         text-decoration: none;
         color: #fff;
         background-color: #ff3800;
     }
-    button a{
-    	color: #fff;
+
+    button a {
+        color: #fff;
     }
 
-     button a:hover{
-    	color: #ff3800;
-    	background-color: #fff;
+    button a:hover {
+        color: #ff3800;
+        background-color: #fff;
     }
 
     #intro {
         clear: both;
         margin: 5% 15% 0 15%;
+        position: relative;
+    }
+
+    #line {
+    	position: absolute;
+        width: 160px;
+        border-bottom: 2px solid #ff3800;
+        left: 45%;
+        margin-top: 240px;
+        float: right;
+    }
+    #toge{
+    	text-transform: uppercase;
+    	position: absolute;
+        right: 10.9%;
+        margin-top: 400px;
+        float: right;
+        color: #fff;
+        font-weight: bold;
+        font-size: 0.9rem;
+        word-spacing: 2px;
     }
     </style>
 </head>
@@ -85,17 +110,25 @@
                     <br/> <em>I want to create stuff that matters!</em>
                 </p>
             </div>
+            <div id="line"></div>
             <img src="me.jpg" alt="iYoung" width="40%" style="float: right; border:5px solid #fff;">
         </div>
+        <p id="toge"> > &nbsp;Lets work together</p>
         <div style="clear: both;">
-        <button style="width: 15%; margin-left: 30%; text-align: center; font-size: 1rem; border-color: transparent; border-radius: 500px; background-color: #ff3800; padding: 0;">
-        	<span style="color: white;">Let's Connect!</span><br/>
-        	<a href="https://github.com/iYoung90/"><i class="fa fa-github" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-        	<a href="https://twitter.com/iBamise/"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-        	<a href="https://www.instagram.com/jot_dada/"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-        	<a href="https://www.facebook.com/jotemitopedada/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-       </button>
-    </div>
+            <button style="width: 15%; margin-left: 30%; text-align: center; font-size: 1rem; border-color: transparent; border-radius: 500px; background-color: #ff3800; padding: 0;">
+                <span style="color: white;">Let's Connect!</span>
+                <br/>
+                <a href="https://github.com/iYoung90/"><i class="fa fa-github" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
+                <a href="https://twitter.com/iBamise/"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
+                <a href="https://www.instagram.com/jot_dada/"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
+                <a href="https://www.facebook.com/jotemitopedada/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </button>
+        </div>
+        <!-- <footer style="text-align: center; margin-top: 2%;"><span style="font-size: 0.8rem; color: #fff; margin-bottom: 0; padding-bottom: 0;"><strong>Temitope 'iYoung' Dada &copy; <script>
+	  								var today = new Date();
+	  								var dd = today.getFullYear();
+	  								document.write(dd);
+	  							</script></strong></span></footer> -->
     </div>
 </body>
 
